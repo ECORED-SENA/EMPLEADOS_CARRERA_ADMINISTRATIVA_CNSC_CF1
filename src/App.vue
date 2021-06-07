@@ -43,4 +43,8 @@ body
   z-index: 9999999 !important
 .modal-backdrop
   z-index: 999999 !important
+.banner-interno__titulo__icono
+  background-color: #ffffff !important
+.banner-interno__titulo h1
+  color: #ffffff !important
 </style>

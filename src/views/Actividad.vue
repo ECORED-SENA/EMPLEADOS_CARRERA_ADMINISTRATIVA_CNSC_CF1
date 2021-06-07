@@ -28,9 +28,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.banner-interno__titulo h1
-  color: #ffffff !important
-.banner-interno__titulo__icono i
-  color: #ffffff !important
-</style>
+<style lang="sass"></style>
