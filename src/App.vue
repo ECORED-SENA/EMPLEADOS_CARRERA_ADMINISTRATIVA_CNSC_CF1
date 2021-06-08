@@ -47,4 +47,6 @@ body
   background-color: #ffffff !important
 .banner-interno__titulo h1
   color: #ffffff !important
+.banner-principal p, .banner-principal h1
+  color: #fff !important
 </style>
