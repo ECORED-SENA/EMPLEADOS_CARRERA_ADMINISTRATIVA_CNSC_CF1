@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Marco normativo del sistema de evaluación de la CNSC',
     descripcionCurso:
-      'Mediante el Acuerdo 6176 de 2018 y su Anexo Técnico se establece el sistema tipo de evaluación de la CNSC para los empleados públicos de carrera administrativa y en período de prueba, el cual está soportado en la Constitución Política, en la que se determina que en los órganos y entidades del Estado los empleos son de carrera administrativa. Es así, como el presente componente realiza un acercamiento normativo desde la Ley 909 de 2004, el Decreto 815 de 2018 y el Decreto Ley 760 de 2005.',
+      'Mediante el Acuerdo 6176 de 2018 y su Anexo Técnico se establece el sistema tipo de evaluación de la CNSC para los empleados públicos de carrera administrativa y en período de prueba, el cual está soportado en la Constitución Política, en la que se determina que en los órganos y entidades del Estado los empleos son de carrera administrativa.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -104,25 +104,32 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo',
-      },
-      {
-        nombre: 'Martha Isabel Martínez Vargas',
-        cargo: 'Revisora de estilo',
-      },
-      {
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Sandra Isabel Suarez Delgado',
-        cargo: 'Experta temática',
-        centro: 'Centro de Servicios y Gestión Empresarial',
-        regional: 'Regional Antioquia',
+        nombre: 'Fanny Restrepo Morales',
+        cargo: 'Instructora experta temática',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Risaralda',
       },
       {
-        nombre: 'Gloria Esperanza Ortiz Russi',
-        cargo: 'Diseñador Instruccional',
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+      },
+      {
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -132,29 +139,20 @@ export default {
         cargo: 'Responsable del equipo',
       },
       {
-        nombre: ['Carlos Julián Ramírez Benítez', 'Yuly Andrea Rey Quiñonez'],
+        nombre: ['Carlos Julián Ramírez Benítez'],
         cargo: 'Diseño web',
       },
       {
-        nombre: [
-          'Zuleidy Maria Ruiz Torres',
-          'Wilson Andrés Arenales Caceres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'Maria Carolina Tamayo',
-          'Victor Cardenas',
-          'Camilo Villamizar',
-          'Carlos Eduardo Garavito',
-          'John Archiniegas',
-        ],
+        nombre: [],
         cargo: 'Producción Audiovisual',
       },
       {
-        nombre: [
-          'Luis Jesús Pérez Madariaga',
-          'Camilo Andrés Bolaño Rey ',
-          'Gustavo Adolfo Marun Suarez',
-        ],
+        nombre: ['Luis Jesús Pérez Madariaga'],
         cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa villamizar',
+        cargo: 'Validación de diseño y contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -170,7 +168,7 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación de recursos',
+        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -304,13 +302,15 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Marco normativo del sistema de evaluación de la CNSC.',
+      texto:
+        'Acuerdo 6176 de 2018 [Comisión Nacional del Servicio Civil]. Por el cual se establece el Sistema Tipo de Evaluación del Desempeño Laboral de los Empleados Públicos de Carrera Administrativa y en Período de Prueba. Octubre 10 de 2018.',
       tipo: 'Acuerdo',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90685',
     },
     {
-      texto: 'Marco normativo del sistema de evaluación de la CNSC.',
+      texto:
+        'Anexo Técnico del Sistema Tipo de Evaluación del Desempeño Laboral de los Empleados Públicos de Carrera Administrativa y en Período de Prueba [Comisión Nacional del Servicio Civil]. Octubre 10 de 2018.',
       tipo: 'Anexo del Acuerdo 6176/18',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90685',

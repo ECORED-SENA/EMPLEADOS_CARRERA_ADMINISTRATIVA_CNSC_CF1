@@ -11,12 +11,12 @@
     p.mt-5 En el Acuerdo 6176 se define  el sistema tipo de evaluación del desempeño laboral de los empleados públicos de carrera administrativa y en período de prueba;  establece cuatro fases para el proceso de evaluación del desempeño laboral para el período anual y el período de prueba: concertación de compromisos, seguimiento, evaluaciones parciales y calificación definitiva; fija también las escalas de calificación en los niveles sobresaliente, satisfactorio y no satisfactorio, e indica además que las comunicaciones y notificaciones relacionadas con la evaluación que se llevará a cabo en los términos de los Artículos 33 y 34 del Decreto Ley 760 de 2005 y los recursos en contra de la calificación definitiva se adelantarán conforme a los Artículos 35, 36 y 37; los impedimentos y recusaciones se tramitan y deciden conforme a lo estipulado en el Artículo 38 y siguientes del Título VII (procedimiento para la notificación de la calificación de los empleados de carrera) del mismo decreto, o las disposiciones que lo modifiquen, aclaren o sustituyan.
 
     .row.mt-5
-      .col-md-6.mb-3
+      .col-md-7.mb-3
         p El Anexo Técnico del Acuerdo 6176 indica las condiciones técnicas de la evaluación del desempeño laboral, iniciando con una definición de términos, con el fin de complementar la información principal que permita percibir y comprender el sistema de evaluación del desempeño tipo de la Comisión Nacional del Servicio Civil. Seguidamente presenta los actores que intervienen en el proceso de evaluación del desempeño y amplía la información contenida en el Acuerdo 6176 en cuanto a las fases de evaluación del desempeño.
 
         p.mt-3 Todo lo anterior, guarda relación con lo dispuesto en la Constitución Política de Colombia, la Ley 909 de 2004, el Decreto Ley 760 de 2005, el Decreto 1083 de 2015 y el Decreto 815 de 2018, en lo que respecta a la evaluación del desempeño laboral (EDL).
 
-      .col-md-6
+      .col-md-5
         img(src="@/assets/curso/tema1/1.svg")
 
     br
@@ -29,9 +29,9 @@
     h6.mt-4 A continuación, se presentan los artículos que hacen referencia:
 
     TabsA.color-acento-botones.mt-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 122")
+      .tarjeta.color-acento-botones--borde.p-3(titulo="Artículo 122")
         .row
-          .col-md-9.mb-3
+          .col-md-9
             h4 Artículo 122
             p En el Capítulo “De la Función Pública”, Artículo 122, dispone que todo empleo público debe tener funciones detalladas en ley o reglamento y todo servidor público para poder entrar a ejercer su cargo debe prestar juramento de cumplir y defender la Constitución y desempeñar los deberes que le corresponden.
           .col-md-3
@@ -39,15 +39,15 @@
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 123")
         .row
-          .col-md-9.mb-3
+          .col-md-9
             h4 Artículo 123
             p En el Artículo 123 se indica que son servidores públicos y están al servicio del Estado y de la comunidad los empleados y trabajadores del Estado y de sus entidades descentralizadas territorialmente y por servicios, y los miembros de las corporaciones públicas.
           .col-md-3
             img(src="@/assets/curso/tema1/2.svg")
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 125")
+      .tarjeta.color-acento-botones--borde.p-2(titulo="Artículo 125")
         .row
-          .col-md-9.mb-3
+          .col-md-9
             h4 Artículo 125
             p Los empleos en las entidades y órganos del Estado son de carrera. El ingreso y ascenso en los cargos de carrera se hace de acuerdo con los requisitos y condiciones que fije la ley para determinar méritos y calidades de los aspirantes, tal como se establece en el Artículo 125, que además indica que el retiro de los servidores públicos se hace por calificación no satisfactoria en el desempeño del empleo o por violación del régimen disciplinario.
           .col-md-3
@@ -55,7 +55,7 @@
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Artículo 130")
         .row
-          .col-md-9.mb-3
+          .col-md-9
             h4 Artículo 130
             p La Constitución en el Artículo 130 establece que la Comisión Nacional del Servicio Civil (CNSC) es responsable de la administración y vigilancia de las carreras de los servidores públicos.
           .col-md-3
@@ -201,13 +201,13 @@
     p.mt-4 El decreto dispone que las evaluaciones del desempeño laboral deben ser objetivas, imparciales y fundadas en principios de equidad, y deben relacionar hechos concretos y comportamientos demostrados por el empleado durante el período a evaluar, que puede ser anual comprendido entre el 1° de febrero y el 31 de enero del año siguiente o en el período de prueba por un término de seis meses.
 
     .row.mt-5
-      .col-md-4.mb-3
-        .bloque-texto-c.p-3(style="background-color:#5E448F")
+      .col-md-4
+        .bloque-texto-c.p-3(style="background-color:#5E448F;")
           i.fas.fa-quote-right(style="color:#00FFFF;")
           .h3.mb-4.mt-3.text-white.p-4 Decreto 1227 de 2005, art. 50
 
       .col-md-8
-        .p-5(style="background-color:#F3F9FF")
+        .p-5(style="background-color:#F3F9FF;height:100%;")
           p.mt-3.mb-2 La Evaluación del Desempeño Laboral es una herramienta de gestión que, con base en juicios objetivos sobre la conducta, las competencias laborales y los aportes al cumplimiento de las metas institucionales de los empleados de carrera y en período de prueba en el desempeño de sus respectivos cargos busca valorar el mérito como principio sobre el cual se fundamenta su permanencia y desarrollo en el servicio.
 
     .row.pl-0

@@ -2,6 +2,70 @@
 
 Estos son los cambios hechos en la ECORED-BASE-2021
 
+## 3.2.0 - 02-06-2021
+
+### Cambios
+
+- /package.json => "ecored-base-pkg": "2.2.0"
+- /src/styles/_variables.sass
+- /src/components/Muestras.vue
+- /src/config/global.js
+
+### Agregado
+
+- Nuevas clases para titulos .titulo-tercero, .titulo-cuarto y .titulo-quinto
+- nuevo .espaciador
+- PasosA ahora soporta contenido dinámico
+- Indicadores de interaccion .indicador--click y .indicador--hover
+- Indicadores de interacción en todos los componentes interactivos
+- Imagen en .tarjeta-avatar ahora tiene tamaños dinámico a travez de $tarjeta-avatar-ancho-img
+
+### Arreglado
+
+- Mejora de responsive en ImagenInfografica
+- Cambio de textos en botones de la vista inicial
+- Cambio de espaciado en .titulo-principal y .titulo-segundo
+- Cambio de todos los tamaños de los headers (h1, h2, h3, h4, h5, h6)
+- Cambio de espaciado de p, ul y ol
+- Mejora de padding en componente AcordionA
+- Cambio de nombre de clase .tarjeta-Avatar-b por .tarjeta-avatar-b
+- Mejora de alineacion de las comillas en los componentes de texto destacado
+
+#
+
+## 3.1.0 - 24-05-2021
+
+### Cambios
+
+- /package.json => "ecored-base-pkg": "2.1.0"
+- /src/assets/template/puntero.svg
+- /src/styles/_variables.sass
+- /src/components/Muestras.vue
+- /src/styles/_styles.sass
+
+### Agregado
+
+- Nuevo Componente ImagenInfográfica
+- Nuevo Componente LineaTiempoD
+- Componente .tarjeta-Avatar-b tiene una variable que controla el ancho de su avatar
+- Los botones ahora tienen el nuevo esquema de colorización (.color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones)
+- esquema de colorización tiene color de texto basado en luminancia del color de fondo
+- Nueva distribucion de creditos
+- Nuevo componente de indicador de interacción
+- Nueva distribución en Muestras
+
+### Arreglado
+
+- Arreglo de escroleo del menú
+- Mejora de especificidad en .text-white, .texto-blanco
+
+### Borrado
+
+- Variables: $color-btn-b-fondo, $color-btn-b-texto (quedan de manera provisional para compatibilidad con anteriores versiones)
+- Clase .boton--b, los botones se van a manejar con el nuevo esquema de colorización
+
+#
+
 ## 3.0.0 - 11-05-2021
 
 ### Cambios

@@ -49,4 +49,9 @@ body
   color: #ffffff !important
 .banner-principal p, .banner-principal h1
   color: #fff !important
+.titulo-principal__numero
+  text-align: center !important
+  padding-top: 5px !important
+.titulo-principal__numero .h3
+      color: white !important
 </style>
