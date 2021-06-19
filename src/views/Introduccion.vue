@@ -8,8 +8,10 @@
         .h3
           i.fas.fa-info
       .h3 Introducción
+
+    p Mediante el Acuerdo 6176 de 2018 y su Anexo Técnico se establece el sistema tipo de evaluación de la CNSC para los empleados públicos de carrera administrativa y en período de prueba, el cual está soportado en la Constitución Política, en la que se determina que en los órganos y entidades del Estado los empleos son de carrera administrativa. Es así, como el presente componente realiza un acercamiento normativo desde la Ley 909 de 2004, el Decreto 815 de 2018 y el Decreto Ley 760 de 2005.
     
-    figure.mb-5
+    figure.mt-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
