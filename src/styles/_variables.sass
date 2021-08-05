@@ -1,6 +1,8 @@
-//
-// Colores genericos ===================================
-//
+// -----------------------------------------------------
+// COLORES ---------------------------------------------
+// -----------------------------------------------------
+  
+// Colores genericos -----------------------------------
 
 $black: #000
 $darkest-gray: lighten($black, 10%)
@@ -13,7 +15,6 @@ $lighten-gray: lighten($black, 70%)
 $lighter-gray: lighten($black, 80%)
 $lightest-gray: lighten($black, 90%)
 $white: #fff
-$purpura: #12263F
 
 
 $red: #F44336
@@ -35,9 +36,7 @@ $orange: #FF9800
 $brown: #795548
 $blue-grey: #607D8B
 
-//
-// Colores Plantilla ===================================
-//
+// Colores Plantilla -----------------------------------
 
 $color-sistema-texto: #12263F
 
@@ -53,37 +52,32 @@ $color-sistema-h: #F6F6F6
 $color-institucional: #ff8f00
 
 
-//
-// Colores Curso ===================================
-//
+// Colores Curso ---------------------------------------
 
-$color-primario: #12263F
-$color-secundario: #DBF6E9
-$color-acento-contenido: #5E448F
-$color-acento-botones: #00FFFF
+$color-primario: #E77C20
+$color-secundario: #007DBD
+$color-acento-contenido: #4FA3B1
+$color-acento-botones: #FAD369
 
-// Color Tipografias
+// Color Tipografias -----------------------------------
 $color-headers: $color-sistema-texto
 
 $color-tipografia: $color-sistema-texto
 
 $color-etiqueta-fondo: $color-primario
-$color-etiqueta-texto: $purpura
+$color-etiqueta-texto: $color-sistema-texto
 
-//color Links
-$color-link: $color-primario
+//color Links ------------------------------------------
+$color-link: $color-sistema-texto
 $color-link-hover: darken($color-primario, 25%)
 
-// Color Botones
+// Color Botones ---------------------------------------
 $color-btn-fondo: $color-acento-botones
-$color-btn-texto: $color-primario
+$color-btn-texto: $color-sistema-texto
 
-$color-btn-b-fondo: $color-acento-contenido
-$color-btn-b-texto: $purpura
-
-// Colores banner
+// Colores banner --------------------------------------
 $color-banner-fondo: $color-primario
-$color-banner-text: $purpura
+$color-banner-text: $color-sistema-texto
 
 // Colores anexos
 $color-fondo-anexo: $color-sistema-g
@@ -91,7 +85,7 @@ $color-texto-anexo: $blue
 
 // Colores Seleccion
 $selection-color: $blue !important
-$selection-font-color: $purpura !important
+$selection-font-color: $white !important
 
 // Colores y estados de validacion
 $color-success: lighten($green, 10%)
@@ -99,7 +93,10 @@ $color-info: lighten($light-blue, 15%)
 $color-warning: lighten($yellow, 15%)
 $color-danger: desaturate($red, 15%)
 
-// Tipografias -----------------------------------------------------
+// -----------------------------------------------------
+// TIPOGRAFIAS -----------------------------------------
+// -----------------------------------------------------
+
 $base-thin-font-weight: 100
 $base-medium-font-weight: 400
 $base-bold-font-weight: 700
@@ -116,55 +113,57 @@ $heading-line-height: 1.2
 
 $code-font-family: "Lucida Console", "Courier New", monospace
 
-$h1-font-size: 2.625em
-$h2-font-size: 2.375em
-$h3-font-size: 1.875em
-$h4-font-size: 1.5em
-$h5-font-size: 1.25em
-$h6-font-size: 1.125em
+$h1-font-size: 2em
+$h2-font-size: 1.5em
+$h3-font-size: 1.25em
+$h4-font-size: 1.125em
+$h5-font-size: 1em
+$h6-font-size: 0.875em
 
 $paragraph-font-family: $base-font-family
-$paragraph-font-size: $base-font-size
+$paragraph-font-size: 1em
 $paragraph-font-weight: $base-font-weight
 $paragraph-line-height: $base-line-height
 
-// Tipografias Links -----------------------------------------------------
+// Tipografias Links -----------------------------------
 $link-font-family: $base-font-family
-$link-font-size: $base-font-size
+$link-font-size: 1em
 $link-font-weight: $base-font-weight
 
-$label-font-size: $base-font-size
+$label-font-size: 1em
 $label-font-family: $base-font-family
 $label-font-weight: $heading-font-weight
 
-// otros tamaños -----------------------------------------------------
+
+// -----------------------------------------------------
+// OTROS TAMAÑOS ---------------------------------------
+// -----------------------------------------------------
+
 $base-border-radius: 5px
 $base-spacing: $base-line-height * 1em
 $small-spacing: $base-spacing / 2
 $big-spacing: $base-spacing * 2
 $base-z-index: 0
 
-// Border
+// Bordes
 $base-border-color: $color-sistema-f
 $base-border: 1px solid $base-border-color
 
-// Forms -----------------------------------------------------
+// Formularios -----------------------------------------
 $placeholder-color: $light-gray
 $form-background-color: white
 $form-box-shadow: inset 0 1px 3px rgba($black, 0.06)
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($color-primario, $lightness: -5%, $alpha: -0.3)
 
-// Tables -----------------------------------------------------
+// Tables ----------------------------------------------
 $table-header-bg-color: $color-sistema-f
 $table-header-color: $color-sistema-a
 
-// Animations
+// Animations ------------------------------------------
 $base-duration: 150ms
 $base-timing: ease-in-out
 
-// ---
-// BREAKPOINTS
-// ---
+// BREAKPOINTS -----------------------------------------
 $bp-min-xxl: 1400px
 $bp-min-xl: 1200px
 $bp-min-lg: 992px
@@ -177,23 +176,13 @@ $bp-max-md: 992px
 $bp-max-sm: 768px
 $bp-max-xs: 576px
 
-// Fallback variables
-$color-curso-a: $color-primario
-$color-curso-b: $color-acento-contenido
-$color-curso-c: $color-acento-botones
-$color-curso-d: $color-secundario
-
-$base-font-color: $color-tipografia
-$paragraph-color: $color-tipografia
-$heading-color: $color-headers
-
 // -----------------------------------------------------
 // COMPONENTES -----------------------------------------
 // -----------------------------------------------------
   
 // Imágen banner principal -----------------------------
-$banner-principal-img-y: '' // 'arriba','abajo',''
-$banner-principal-img-x: '' // 'derecha',''
+$banner-principal-img-y: 'arriba' // 'arriba','abajo',''
+$banner-principal-img-x: 'derecha' // 'derecha',''
 
 // .tarjeta-avatar -----------------------------------
 $tarjeta-avatar-b-ancho-img: 20%
@@ -205,4 +194,4 @@ $tarjeta-avatar-ancho-img: 150px
 // -----------------------------------------------------
 
 $color-btn-b-fondo: $color-acento-contenido
-$color-btn-b-texto: $white
+$color-btn-b-texto: $color-sistema-texto

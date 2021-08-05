@@ -5,9 +5,8 @@
     AsideMenu
     section.seccion-principal(:class="{'seccion-principal--barra-avance-open' : !menuState}")
       router-view
-      footer
   BarraAvance
-
+  Accesibilidad
 </template>
 
 <script>
@@ -21,37 +20,12 @@ export default {
       return this.$store.getters.isMenuOpen
     },
   },
+  mounted() {
+    this.$aos.init({
+      offset: 100,
+    })
+  },
 }
 </script>
 
-<style lang="sass">
-.app
-
-.contenedor-principal
-  display: flex
-  align-items: flex-start
-
-.seccion-principal
-  width: 100%
-
-  &--barra-avance-open
-    .curso-main-container
-      padding-bottom: 80px !important
-body
-  padding-right: 0px !important
-.modal
-  z-index: 9999999 !important
-.modal-backdrop
-  z-index: 999999 !important
-.banner-interno__titulo__icono
-  background-color: #ffffff !important
-.banner-interno__titulo h1
-  color: #ffffff !important
-.banner-principal p, .banner-principal h1
-  color: #fff !important
-.titulo-principal__numero
-  text-align: center !important
-  padding-top: 5px !important
-.titulo-principal__numero .h3
-      color: white !important
-</style>
+<style lang="sass"></style>

@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Marco normativo del sistema de evaluación de la CNSC',
+    componenteFormativo:
+      'El mejoramiento continuo en el Sistema de Gestión de Seguridad y Salud en el Trabajo',
     descripcionCurso:
-      'Mediante el Acuerdo 6176 de 2018 y su Anexo Técnico se establece el sistema tipo de evaluación de la CNSC para los empleados públicos de carrera administrativa y en período de prueba, el cual está soportado en la Constitución Política, en la que se determina que en los órganos y entidades del Estado los empleos son de carrera administrativa.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
+      'Es muy importante mantener una verificación y actualización constante del conocimiento de los elementos del SG-SST y del cumplimiento de los estándares mínimos, de la planificación, contenidos, productos de la organización y planificación del SG-SST, además de la actualización de la matriz de peligros y construcción del plan de mejora según lineamientos de la Resolución 0312 del 2019. ',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -15,7 +16,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-play-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -23,41 +24,141 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Marco normativo del sistema de evaluación de la CNSC',
+        titulo: 'Revisión de la política del SG SST',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
+        numero: '2',
+        titulo: 'Revisión de los objetivos generales y específicos del SG SST',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo:
+          'Revisión de la tabla de valores y clasificación de los estándares mínimos',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema10',
+        icono: 'far fa-file-alt',
+        numero: '10',
+        titulo: 'Componentes',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'fas fa-file-alt',
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Constitución Política de Colombia - Función pública',
-            hash: 't_1_1',
+            titulo: 'Encabezados',
+            hash: 'encabezados',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Ley 909 de 2004 - Evaluación del desempeño',
-            hash: 't_1_2',
+            titulo: 'Párrafos',
+            hash: 'parrafos',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo:
-              'Decreto Ley 760 de 2005 - Procedimiento para la notificación de la calificación de los empleados de carrera y establecimiento de impedimento y recusaciones',
-            hash: 't_1_3',
+            titulo: 'Botones',
+            hash: 'botones',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo:
-              'Decreto 1083 de 2015 - Evaluación del desempeño y calificación de servicios',
-            hash: 't_1_4',
+            titulo: 'Listas',
+            hash: 'listas',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo:
-              'Decreto 815 de 2018 – Competencias laborales para los empleos públicos',
-            hash: 't_1_5',
+            titulo: 'Tablas',
+            hash: 'tablas',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Imagen',
+            hash: 'imagen',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Imagen Infográfica',
+            hash: 'imagen_infografica',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Video',
+            hash: 'video',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.9',
+            titulo: 'Bloques de texto destacado',
+            hash: 'texto_destacado',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.10',
+            titulo: 'Sliders',
+            hash: 'sliders',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.11',
+            titulo: 'Acordiones',
+            hash: 'acordiones',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.12',
+            titulo: 'Pestañas o Tabs',
+            hash: 'tabs',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.13',
+            titulo: 'Líneas de tiempo',
+            hash: 'lineas_tiempo',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.14',
+            titulo: 'Pasos',
+            hash: 'pasos',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.15',
+            titulo: 'Llamados a la acción',
+            hash: 'llamados_accion',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.16',
+            titulo: 'Tarjetas',
+            hash: 'tarjetas',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.17',
+            titulo: 'Tarjetas con número',
+            hash: 'tarjeta_numero',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.18',
+            titulo: 'Modal',
+            hash: 'modal',
           },
         ],
       },
@@ -96,230 +197,219 @@ export default {
       },
     ],
   },
-  creditos: {
-    liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
+  referencias: [
+    {
+      referencia:
+        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
+    {
+      referencia:
+        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+    },
+    {
+      referencia:
+        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+    },
+    {
+      referencia:
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+    },
+    {
+      referencia:
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+    },
+    {
+      referencia:
+        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+    },
+    {
+      referencia:
+        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+    },
+    {
+      referencia:
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+    },
+  ],
+  glosario: [
+    {
+      termino: 'MoodBoard',
+      significado:
+        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+    },
+    {
+      termino: 'Suftware',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Pirognóstico',
+      significado:
+        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+    },
+    {
+      termino: 'Áectores',
+      significado:
+        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+    },
+    {
+      termino: 'Diseño',
+      significado:
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+    },
+    {
+      termino: 'Tipología',
+      significado:
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+    },
+    {
+      termino: 'Bidimensional',
+      significado:
+        'que se representa según su altura y su anchura y no su profundidad.',
+    },
+    {
+      termino: 'Interés Inferior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interseccionalidad',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+    {
+      termino: 'Interés superior del menor',
+      significado:
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+    },
+  ],
+  complementario: [
+    {
+      texto:
+        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      tipo: 'Página web',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto:
+        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+      tipo: 'Artículo científico',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Economía de Rosquilla. (s.f.).',
+      tipo: 'Página web',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
+    },
+  ],
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Fanny Restrepo Morales',
-        cargo: 'Instructora experta temática',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Risaralda',
-      },
-      {
-        nombre: 'Maryuri Agudelo Franco',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor metodológico y pedagógico',
-        centro: 'Centro de Diseño y Metrología',
-      },
-      {
-        nombre: 'Julia Isabel Roberto',
-        cargo: 'Diseñadora y evaluadora instruccional',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-      },
-      {
-        regional: 'Regional Distrito Capital',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-      },
-      {
-        nombre: ['Carlos Julián Ramírez Benítez'],
-        cargo: 'Diseño web',
-      },
-      {
-        nombre: [
-          'Zuleidy Maria Ruiz Torres',
-          'Wilson Andrés Arenales Caceres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'Maria Carolina Tamayo',
-          'Laura Murcia Pardo',
-        ],
-        cargo: 'Producción Audiovisual',
-      },
-      {
-        nombre: ['Luis Jesús Pérez Madariaga'],
-        cargo: 'Desarrollo front-end',
-      },
-      {
-        nombre: 'Yenny Patricia Ulloa villamizar',
-        cargo: 'Validación de diseño y contenido',
-      },
-      {
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Nombre 1', 'Nombre 2'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
-  referencias: [
-    {
-      referencia:
-        'Acuerdo 6176 de 2018 [Comisión Nacional del Servicio Civil]. Por el cual se establece el Sistema Tipo de Evaluación del Desempeño Laboral de los Empleados Públicos de Carrera Administrativa y en Período de Prueba. Octubre 10 de 2018.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90685',
-    },
-    {
-      referencia:
-        'Anexo Técnico del Sistema Tipo de Evaluación del Desempeño Laboral de los Empleados Públicos de Carrera Administrativa y en Período de Prueba [Comisión Nacional del Servicio Civil]. Octubre 10 de 2018.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90685',
-    },
-    {
-      referencia:
-        'Constitución Política de Colombia [CPC]. Capítulo 2: De la función pública art. 122, 123, 125, 130 (Colombia).',
-      link: 'https://www.constitucioncolombia.com/titulo-5/capitulo-2',
-    },
-    {
-      referencia:
-        'Decreto 1227 de 2005. [Presidencia de la República de Colombia]. Por el cual se reglamenta parcialmente la Ley 909 de 2004 y el Decreto-ley 1567 de 1998. Capítulo IV (2005, 25 de abril). Abril 21 de 2005.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=16313',
-    },
-    {
-      referencia:
-        'Decreto Ley 760 de 2005. [Presidencia de la República de Colombia]. Por el cual se establece el procedimiento que debe surtirse ante y por la Comisión Nacional del Servicio Civil para el cumplimiento de sus funciones. (Título VII Procedimiento para la notificación de la calificación de los empleados de carrera (art. 33 al 40).  Marzo 17 de 2005.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=16124',
-    },
-    {
-      referencia:
-        'Decreto 1083 de 2015 Sector de Función Pública. [Presidencia de la República de Colombia]. Por medio del cual se expide el Decreto Único Reglamentario del Sector de Función Pública.  (Título 8 Evaluación del Desempeño y calificación de servicios. Capítulo 1: Evaluación del desempeño laboral. Capítulo 2: Evaluación y calificación del período de prueba). Mayo 26 de 2015.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=62866',
-    },
-    {
-      referencia:
-        'Decreto 815 de 2018. [Presidencia de la República de Colombia]. Por el cual se modifica el Decreto 1083 de 2015, Único Reglamentario del Sector de Función Pública, en lo relacionado con las competencias laborales generales para los empleos públicos de los distintos niveles jerárquicos. Mayo 8 de 2018.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86304',
-    },
-    {
-      referencia:
-        'Ley 909 de 2004. Por la cual se expiden normas que regulan el empleo público, la carrera administrativa, gerencia pública y se dictan otras disposiciones. Septiembre 23 de 2004. DO. No. 45.680.',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0909_2004.html',
-    },
-    {
-      referencia:
-        'Restrepo, F. (2020). Curso para evaluadores del desempeño laboral con el sistema tipo de la Comisión Nacional del Servicio Civil. Material de formación. SENA.',
-      link: '',
-    },
-  ],
-  glosario: [
-    {
-      termino: 'Calificación',
-      significado:
-        'Corresponde a la asignación del porcentaje alcanzado por el evaluado, conforme a las evidencias que dan cuenta de su desempeño y comportamiento. ',
-    },
-    {
-      termino: 'Carrera administrativa',
-      significado:
-        'Sistema que regula el ingreso, permanencia, ascenso y retiro del personal, regulado por la función pública y la Comisión Nacional del Servicio Civil.',
-    },
-    {
-      termino: 'Competencias',
-      significado:
-        'Es la capacidad de una persona para desempeñar en diferentes contextos y con base en los requerimientos de calidad y resultados esperados en el sector público las funciones inherentes a un empleo; capacidad que está determinada por los conocimientos, destrezas, habilidades, valores, actitudes y aptitudes que debe poseer y demostrar el empleado (ESAP-DAFP – Guía para la formulación del PIC).',
-    },
-    {
-      termino: 'Comportamental',
-      significado:
-        'Hace referencia a la actitud o conducta natural que muestra una persona en diferentes situaciones y lugares.',
-    },
-    {
-      termino: 'Compromisos laborales',
-      significado:
-        'Son aquellos que evidencian las competencias funcionales del empleo y las competencias comportamentales que debe acreditar todo servidor público en el ejercicio del empleo.',
-    },
-    {
-      termino: 'Desempeño',
-      significado:
-        'Conductas laborales del empleado en el cumplimiento de sus funciones. El desempeño se considera también como el desarrollo de los compromisos en relación a las metas deseadas por la entidad. ',
-    },
-    {
-      termino: 'Empleo público',
-      significado:
-        'Es el conjunto de funciones, tareas y responsabilidades que se asignan a una persona y las competencias requeridas para llevarlas a cabo, con el propósito de satisfacer el cumplimiento de los planes de desarrollo y los fines del Estado (Artículo 19 Ley 909 de 2004).',
-    },
-    {
-      termino: 'Evaluación',
-      significado:
-        'La evaluación consiste en estimar de forma permanente los conocimientos, destrezas, actitudes, habilidades, aptitudes y rendimiento de los evaluados durante el período respectivo.',
-    },
-    {
-      termino: 'Evaluado',
-      significado:
-        'Empleado de carrera o en período de prueba que presta sus servicios en una entidad cuyo sistema de carrera administrativa se encuentre administrado y vigilado por la CNSC.',
-    },
-    {
-      termino: 'Evaluador',
-      significado:
-        'Es el jefe inmediato del servidor de carrera o en período de prueba, responsable de evaluar su desempeño, quien deberá ostentar un grado igual o superior al evaluado.',
-    },
-    {
-      termino: 'Evidencias',
-      significado:
-        'Son los elementos que permiten establecer de manera objetiva, equitativa y transparente el avance, cumplimiento o incumplimiento de los compromisos que se han generado durante el período de evaluación.',
-    },
-    {
-      termino: 'Función pública',
-      significado:
-        'Aquella que está al servicio de los intereses generales y prestación de servicios a cargo del Estado a través de sus servidores, y se desarrolla con fundamento en los principios de igualdad, moralidad, eficacia, economía, celeridad, imparcialidad y publicidad (Artículo 209 Constitución Política de Colombia y 2° Ley 909 de 2004).',
-    },
-    {
-      termino: 'Metas institucionales',
-      significado:
-        'Para los fines de la evaluación del desempeño, las metas institucionales son las establecidas por la alta dirección de la entidad, de conformidad con los planes, programas, proyectos o planes operativos anuales por área o dependencia, encaminadas al cumplimiento de los objetivos y propósitos de la entidad.',
-    },
-    {
-      termino: 'Período de prueba en empleo de carrera',
-      significado:
-        'Se encuentra establecido en el Artículo 31 de la Ley 909 de 2004 de la siguiente forma: <br><br> (…) Período de prueba. La persona no inscrita en carrera administrativa que haya sido seleccionada por concurso será nombrada en período de prueba, por el término de seis meses, al final de los cuales le será evaluado el desempeño, de acuerdo con lo previsto en el reglamento. <br><br> El Artículo 76 del Código Sustantivo del Trabajo indica: el período de prueba es la etapa inicial del contrato laboral durante la cual el empleador busca validar y apreciar las aptitudes del trabajador. <br><br> Del mismo modo, por parte del trabajador, se busca verificar si el trabajo para el que fue contratado cumple con sus expectativas y si las condiciones son de su conveniencia.',
-    },
-  ],
-  complementario: [
-    {
-      texto:
-        'Acuerdo 6176 de 2018 [Comisión Nacional del Servicio Civil]. Por el cual se establece el Sistema Tipo de Evaluación del Desempeño Laboral de los Empleados Públicos de Carrera Administrativa y en Período de Prueba. Octubre 10 de 2018.',
-      tipo: 'Acuerdo',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90685',
-    },
-    {
-      texto:
-        'Anexo Técnico del Sistema Tipo de Evaluación del Desempeño Laboral de los Empleados Públicos de Carrera Administrativa y en Período de Prueba [Comisión Nacional del Servicio Civil]. Octubre 10 de 2018.',
-      tipo: 'Anexo del Acuerdo 6176/18',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=90685',
-    },
-  ],
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }

@@ -1,1 +1,2 @@
-module.exports = 'Marco normativo del sistema de evaluación de la CNSC'
+module.exports =
+  'El mejoramiento continuo en el Sistema de Gestión de Seguridad y Salud en el Trabajo'

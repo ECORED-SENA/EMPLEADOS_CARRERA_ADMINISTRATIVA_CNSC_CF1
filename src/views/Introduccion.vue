@@ -5,18 +5,28 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3
+        span
           i.fas.fa-info
-      .h3 Introducción
-
-    p Mediante el Acuerdo 6176 de 2018 y su Anexo Técnico se establece el sistema tipo de evaluación de la CNSC para los empleados públicos de carrera administrativa y en período de prueba, el cual está soportado en la Constitución Política, en la que se determina que en los órganos y entidades del Estado los empleos son de carrera administrativa. Es así, como el presente componente realiza un acercamiento normativo desde la Ley 909 de 2004, el Decreto 815 de 2018 y el Decreto Ley 760 de 2005.
+      h1 Introducción
     
-    figure.mt-4
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/FAhJrdAT-VE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5
+      img(src='@/assets/curso/introduccion/img01.png') 
 
-    p.mt-4 La normatividad determina los criterios y directrices en el proceso de evaluación del desempeño laboral (EDL) y las empresas del Estado que no cuenten con un sistema de evaluación propio deben adoptar el sistema tipo de la Comisión Nacional del Servicio Civil (CNSC), definido mediante el Acuerdo 6176 de 2018 y su Anexo Técnico, en el que se definen los medios o instrumentos para llevar a cabo el proceso de evaluación del desempeño laboral. El Acuerdo rige para todas las entidades a partir del 1° de febrero de 2019.
-      
+    p.mb-5 El Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) está basado en la normativa vigente, para el desarrollo de este componente formativo se tendrá en cuenta el Decreto único del sector trabajo o Decreto 1072 del 2015 y la Resolución 0312 del 2019, por el cual se definen los estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo como se describe a continuación:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-primario
+          .row
+            .col-lg-9.p-5
+              p.mb-0 Según la Ley 1562 del 2012 “El Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST) es un proceso lógico y por etapas, basado en la mejora continua (ciclo PHVA) y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora, con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en el trabajo”.
+            .col-lg-3
+              figure
+                img(src='@/assets/curso/introduccion/img02.png') 
+
+    p Ahora bien, en el Decreto 1072 del 2015, en el Artículo 2.2.4.6 se establecen la directrices de obligatorio cumplimiento para implementar el Sistema de Gestión de Seguridad y Salud en el Trabajo, estas deben ser aplicadas por todos  los empleadores públicos y privados, los contratantes de personal bajo modalidad de contrato civil, comercial o administrativo, las organizaciones de economía solidaria y del sector cooperativo, las empresas de servicios temporales y, debe tener cobertura sobre todos los trabajadores dependientes, contratistas, trabajadores cooperados y los trabajadores en misión. La implementación del sistema es responsabilidad del empleador, con la participación de los trabajadores y/o contratistas. Tiene como objetivo garantizar la aplicación de las medidas de seguridad y salud, propender por el mejoramiento de los comportamientos y la gestión eficaz para la prevención de los peligros. 
+          
+
 </template>
 
 <script>
@@ -28,4 +38,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.introduccion
+</style>
