@@ -4,7 +4,9 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .titulo-principal
-      .h3 Revisión de la política del SG SST
+      .titulo-principal__numero
+        span 1
+      h1  Revisión de la política del SG SST
     
     .row.mb-5
       .col-lg-8    
